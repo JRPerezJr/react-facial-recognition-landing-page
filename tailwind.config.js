@@ -9,6 +9,9 @@ module.exports = {
         primary: '#ffffff',
         secondary: '#000000',
         'btn-red': '#D43A25',
+        'light-white': '#f7f7f7',
+        grey: '#9194A2',
+        purple: '#5267DF',
       },
     },
     fontFamily: {
