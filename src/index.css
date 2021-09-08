@@ -26,3 +26,7 @@ code {
 .btn-black {
     @apply bg-secondary
 }
+
+.btn-purple {
+    @apply bg-purple
+}
