@@ -20,7 +20,7 @@
 <br>
 
 <h2 align="center">Landing Page</h2>
-![landing-page](https://user-images.githubusercontent.com/19915910/132956453-3eb50cf1-fb5b-4a89-b4f2-6222f448c1c0.png)
+![landing-Page](https://user-images.githubusercontent.com/19915910/132956603-0f0e540a-d01d-4175-9ac5-32630aeb3e8d.png)
 
 <br>
 ## 📐 Prerequisites
