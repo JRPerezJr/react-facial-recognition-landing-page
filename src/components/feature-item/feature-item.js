@@ -14,12 +14,13 @@ export const FeatureItem = ({
   contentHeading,
   contentParagraph,
   featureImage,
+  key,
   roundedRectangleClass,
   styledFeatureClass,
   styledFeatureContainerClass,
 }) => {
   return (
-    <StyledFeature className={styledFeatureClass}>
+    <StyledFeature key={key} className={styledFeatureClass}>
       <StyledFeatureContainer className={styledFeatureContainerClass}>
         {/*Image*/}
         <StyledImageContainer>

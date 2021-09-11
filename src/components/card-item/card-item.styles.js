@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
-export const CardItemContainer = styled.div.attrs({
-  className: 'flex flex-col rounded-md shadow-md',
-})``;
+export const CardItemContainer = styled.div.attrs({})``;
 
 export const CardItemContent = styled.div.attrs({
   className: 'p-6 flex flex-col items-center',
@@ -21,5 +19,5 @@ export const StyledHR = styled.hr.attrs({
 })``;
 
 export const CardItemButtonContainer = styled.div.attrs({
-  className: 'flex p-6 lg:p-9',
+  className: 'flex p-6',
 })``;

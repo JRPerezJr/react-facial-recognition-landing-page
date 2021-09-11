@@ -1,5 +1,3 @@
-import Chrome from '../../assets/logo-chrome.svg';
-
 import {
   CardItemButtonContainer,
   CardItemContainer,
@@ -8,22 +6,28 @@ import {
   CardItemParagraph,
   StyledHR,
 } from './card-item.styles';
+
 import { ButtonComponent } from '../button-component/button.component';
 
-export const CardItemComponent = () => {
+export const CardItemComponent = ({
+  cardClass,
+  key,
+  img,
+  header,
+  paragraph,
+  twClass,
+  text,
+}) => {
   return (
-    <CardItemContainer>
+    <CardItemContainer key={key} className={cardClass}>
       <CardItemContent>
-        <img src={Chrome} alt="Chrome" />
-        <CardItemHeader>Add to Chrome</CardItemHeader>
-        <CardItemParagraph>Minimum version 62</CardItemParagraph>
+        <img src={img} alt="Chrome" />
+        <CardItemHeader>{header}</CardItemHeader>
+        <CardItemParagraph>{paragraph}</CardItemParagraph>
       </CardItemContent>
       <StyledHR />
       <CardItemButtonContainer>
-        <ButtonComponent
-          twClass="btn btn-purple hover:bg-primary hover:text-secondary"
-          text="Add & Install Extension"
-        />
+        <ButtonComponent twClass={twClass} text={text} />
       </CardItemButtonContainer>
     </CardItemContainer>
   );

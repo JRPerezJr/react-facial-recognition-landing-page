@@ -13,9 +13,10 @@ export const DownloadComponent = () => {
         <StyledHeading>Download the application</StyledHeading>
         <StyledParagraph>
           We've got more apps in the pipeline. Please let us know if you're
-          interested in more new and exciting features.
+          interested in adding more new and exciting features.
         </StyledParagraph>
       </HeadingContainer>
+      {/*Cards*/}
       <CardComponent />
     </StyledDownloadSection>
   );
