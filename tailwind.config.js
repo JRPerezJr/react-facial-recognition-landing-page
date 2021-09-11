@@ -16,7 +16,7 @@ module.exports = {
     },
     fontFamily: {
       Poppins: [
-        "-apple-system, BlinkMacSystemFont,'Poppins','Segoe UI', 'Roboto', 'Oxygen',\n" +
+        "'Poppins',-apple-system, BlinkMacSystemFont,'Segoe UI', 'Roboto', 'Oxygen',\n" +
           "'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n" +
           'sans-serif',
       ],
