@@ -1,11 +1,11 @@
 <h1 align="center">Facial Recognition App</h1>
 
-> A landing page for the React facial recognition app.
+> A fictional landing page for a React facial recognition app. 
 
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <img src="https://img.shields.io/badge/node-14.17.0-blue.svg" />
-  <img src="https://img.shields.io/badge/npm-6.14.13-blue.svg" />
+  <img src="https://img.shields.io/badge/node-14.17.0-blue.svg" alt="badge" />
+  <img src="https://img.shields.io/badge/npm-6.14.13-blue.svg" alt="badge"/>
   <a href="https://github.com/JRPerezJr/react-facial-recognition-landing-page#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
@@ -19,6 +19,10 @@
 
 <br>
 
+<h2 align="center">Landing Page</h2>
+![landing-page](https://user-images.githubusercontent.com/19915910/132956453-3eb50cf1-fb5b-4a89-b4f2-6222f448c1c0.png)
+
+<br>
 ## 📐 Prerequisites
 
 - Git
