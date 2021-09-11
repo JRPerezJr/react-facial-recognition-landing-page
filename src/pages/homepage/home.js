@@ -3,6 +3,7 @@ import { FeatureSection } from '../../components/feature-section/feature-section
 import { DownloadComponent } from '../../components/download/download.component';
 import { FAQComponent } from '../../components/faq-section/faq.component';
 import { ContactUsComponent } from '../../components/contact-us/contact-us.component';
+import { FooterComponent } from '../../components/footer/footer.component';
 
 export const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ export const HomePage = () => {
       <DownloadComponent />
       <FAQComponent />
       <ContactUsComponent />
+      <FooterComponent />
     </>
   );
 };
