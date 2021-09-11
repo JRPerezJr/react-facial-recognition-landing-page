@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ContactUsSection = styled.section.attrs({
-  className: 'bg-purple text-primary py-20',
+  className: 'bg-purple text-primary py-20 md:px-0 px-4',
 })``;
 
 export const ContactUsContainer = styled.div.attrs({
