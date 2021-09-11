@@ -7,7 +7,7 @@ export const HeroComponent = () => {
     <section className="relative">
       <div className="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
         <div className="flex flex-1 flex-col items-center lg:items-start">
-          <h2 className="text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
+          <h2 className="text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6 lg:leading-tight">
             A simple facial recognition application
           </h2>
           <p className="text-lg text-center lg:text-left mb-6">
