@@ -19,6 +19,7 @@ export const FAQComponent = () => {
           <FAQItemsComponent
             key={faqItem.id}
             spanContent={faqItem.spanContent}
+            dropdownContent={faqItem.dropdownContent}
           />
         ))}
         {/*Button*/}

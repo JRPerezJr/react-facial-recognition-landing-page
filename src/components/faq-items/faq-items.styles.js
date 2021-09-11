@@ -10,6 +10,9 @@ export const SpanContainer = styled.div.attrs({
 export const StyledSpan = styled.span.attrs({
   className: 'flex-1',
 })``;
+export const StyledDropdownSpan = styled.span.attrs({
+  className: 'flex-1 text-grey',
+})``;
 
 export const StyledIcon = styled(FontAwesomeIcon).attrs({
   className: 'text-purple',
