@@ -11,7 +11,7 @@ import { ButtonComponent } from '../button-component/button.component';
 
 export const CardItemComponent = ({
   cardClass,
-  key,
+
   img,
   header,
   paragraph,
@@ -19,7 +19,7 @@ export const CardItemComponent = ({
   text,
 }) => {
   return (
-    <CardItemContainer key={key} className={cardClass}>
+    <CardItemContainer className={cardClass}>
       <CardItemContent>
         <img src={img} alt="Chrome" />
         <CardItemHeader>{header}</CardItemHeader>
