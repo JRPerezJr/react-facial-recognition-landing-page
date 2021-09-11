@@ -2,6 +2,12 @@
 
 > A fictional landing page for a React facial recognition app. 
 
+<h2 align="center">Landing Page</h2>
+
+![landing-Page](https://user-images.githubusercontent.com/19915910/132956603-0f0e540a-d01d-4175-9ac5-32630aeb3e8d.png)
+
+<br>
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/node-14.17.0-blue.svg" alt="badge" />
@@ -19,11 +25,6 @@
 
 <br>
 
-<h2 align="center">Landing Page</h2>
-
-![landing-Page](https://user-images.githubusercontent.com/19915910/132956603-0f0e540a-d01d-4175-9ac5-32630aeb3e8d.png)
-
-<br>
 ## 📐 Prerequisites
 
 - Git
