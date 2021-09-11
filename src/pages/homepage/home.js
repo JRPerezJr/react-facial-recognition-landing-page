@@ -2,6 +2,7 @@ import { HeroComponent } from '../../components/hero/hero';
 import { FeatureSection } from '../../components/feature-section/feature-section.component';
 import { DownloadComponent } from '../../components/download/download.component';
 import { FAQComponent } from '../../components/faq-section/faq.component';
+import { ContactUsComponent } from '../../components/contact-us/contact-us.component';
 
 export const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ export const HomePage = () => {
       <FeatureSection />
       <DownloadComponent />
       <FAQComponent />
+      <ContactUsComponent />
     </>
   );
 };
