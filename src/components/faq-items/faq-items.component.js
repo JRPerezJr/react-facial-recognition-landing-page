@@ -7,12 +7,14 @@ import {
   StyledSpan,
 } from './faq-items.styles';
 
-export const FAQItemsComponent = ({ id, spanContent, dropdownContent }) => {
+export const FAQItemsComponent = ({
+  faqItem: { spanContent, dropdownContent },
+}) => {
   const [faqMenuExpanded, setFAQMenuExpanded] = useState(false);
 
   return (
     <>
-      <SpanContainer key={id}>
+      <SpanContainer>
         <StyledSpan>{spanContent}</StyledSpan>
         <StyledIcon onClick={() => setFAQMenuExpanded(!faqMenuExpanded)} />
       </SpanContainer>

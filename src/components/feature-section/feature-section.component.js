@@ -16,15 +16,7 @@ export const FeatureSection = () => {
       />
       {/*Feature 1*/}
       {featureItems.map(featureItem => (
-        <FeatureItem
-          key={featureItem.id}
-          styledFeatureClass={featureItem.styledFeatureClass}
-          styledFeatureContainerClass={featureItem.styledFeatureContainerClass}
-          featureImage={featureItem.featureImage}
-          contentHeading={featureItem.contentHeading}
-          contentParagraph={featureItem.contentParagraph}
-          roundedRectangleClass={featureItem.roundedRectangleClass}
-        />
+        <FeatureItem key={featureItem.id} featureItem={featureItem} />
       ))}
     </FeatureContainer>
   );

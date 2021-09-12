@@ -16,11 +16,7 @@ export const FAQComponent = () => {
       {/*FAQ Items*/}
       <FAQContainer>
         {faqItems.map(faqItem => (
-          <FAQItemsComponent
-            key={faqItem.id}
-            spanContent={faqItem.spanContent}
-            dropdownContent={faqItem.dropdownContent}
-          />
+          <FAQItemsComponent key={faqItem.id} faqItem={faqItem} />
         ))}
         {/*Button*/}
         <ButtonComponent

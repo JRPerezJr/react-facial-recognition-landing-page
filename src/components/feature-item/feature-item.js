@@ -11,12 +11,14 @@ import { ButtonComponent } from '../button-component/button.component';
 import { RoundedRectangleComponent } from '../rounded-rectangle/rounded-rectangle.component';
 
 export const FeatureItem = ({
-  contentHeading,
-  contentParagraph,
-  featureImage,
-  roundedRectangleClass,
-  styledFeatureClass,
-  styledFeatureContainerClass,
+  featureItem: {
+    contentHeading,
+    contentParagraph,
+    featureImage,
+    roundedRectangleClass,
+    styledFeatureClass,
+    styledFeatureContainerClass,
+  },
 }) => {
   return (
     <StyledFeature className={styledFeatureClass}>

@@ -10,13 +10,7 @@ import {
 import { ButtonComponent } from '../button-component/button.component';
 
 export const CardItemComponent = ({
-  cardClass,
-
-  img,
-  header,
-  paragraph,
-  twClass,
-  text,
+  item: { cardClass, img, header, paragraph, twClass, text },
 }) => {
   return (
     <CardItemContainer className={cardClass}>

@@ -8,15 +8,7 @@ export const CardComponent = () => {
     <CardContainer>
       {/*Cards*/}
       {cardItems.map(item => (
-        <CardItemComponent
-          key={item.id}
-          cardClass={item.cardClass}
-          img={item.img}
-          header={item.header}
-          paragraph={item.paragraph}
-          twClass={item.twClass}
-          text={item.text}
-        />
+        <CardItemComponent key={item.id} item={item} />
       ))}
     </CardContainer>
   );
